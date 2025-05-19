@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+set -x
 
 INPUT_PATH="${INPUT_PATH:-.}"
 INPUT_DOCKERFILE="${INPUT_DOCKERFILE:-Dockerfile}"
